@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #eee;
+    width: 550px;
+    padding: 30px;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.massage {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.succses {
+    background-color: #8af48a;
+    border: 1px solid #009900;
+    color:#009900;
+    text-align: center;
+}
+
+.error {
+    background-color: #f48a8a;
+    border: 1px solid #990000;
+    color: #990000;
+}
+
+.warning {
+    background-color: #f4ef8a;
+    border: 1px solid #996100;
+    color: #996100;
+}
